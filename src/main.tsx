@@ -3,13 +3,15 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import { createBrowserHistory } from 'history';
-import { App } from './app';
+import { App } from 'app';
+import stores from './app/stores' 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// prepare store
 const history = createBrowserHistory();
 
+
 ReactDOM.render(
-  <Provider>
+  <Provider store={stores}>
     <ConnectedRouter history={history}>
       <App />
     </ConnectedRouter>
