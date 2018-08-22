@@ -1,0 +1,13 @@
+{
+    "posts": [
+        { 
+            "id": 1,
+            "text": "lorem  ipsum color",
+            "attachment": "",
+            "comments": [],
+            "date": ""
+        }
+    ],
+    "filters": [],
+    "session": {}
+  }
