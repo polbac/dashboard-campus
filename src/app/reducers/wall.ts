@@ -1,4 +1,4 @@
-import { WALL_FETCH } from './../actions/wall';
+import { WALL_POPULATE } from 'app/actions/wall';
 import { Wall } from './../models/wall';
 import { Action } from '../models/action';
 
@@ -10,8 +10,8 @@ export const wall = (state: any = INITIAL_STATE_WALL, action: Action) => {
         return INITIAL_STATE_WALL;
     };
 
-    if (typeof state === WALL_FETCH) {
-        return INITIAL_STATE_WALL;
+    if (action.type === WALL_POPULATE) {
+        return action.payload.posts;
     };
 
     return state;

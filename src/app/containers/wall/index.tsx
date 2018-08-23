@@ -1,27 +1,28 @@
 import * as React from 'react';
-import { Button } from 'reactstrap';
 import { connect } from 'react-redux'
 import { wallFetch } from 'app/actions';
+import PostComponent from 'app/components/post';
+import { pluck } from 'app/utils/pluck';
+import { Post } from 'app/models';
 
-interface WallComponentPropTypes {
-    dispatch: any;
+type WallComponentPropTypes = {
+    wall: Post[],
 }
 
-@connect()
+@connect(pluck('wall'))
 export default class WallComponent extends React.Component<WallComponentPropTypes, {}> {
 
     componentDidMount(){
-        const { dispatch } = this.props;
+        const { dispatch } = this.props as any;
 
-        dispatch(
-            wallFetch([])
-        );
+        dispatch(wallFetch([]));
     }
 
     render(): any {
+        const { wall } = this.props;
         return (
             <div>
-                Board
+                {wall.map( post => <PostComponent data={post} />)}
             </div>    
         );
     }

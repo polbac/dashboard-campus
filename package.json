@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --hot --progress --color --port 3000 --open",
+    "mock": "json-server --watch ./mock/db.json --port 3024",
     "build": "webpack -p --progress --colors",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\""
   },
@@ -60,6 +61,7 @@
     "reactstrap": "^6.4.0",
     "rebass": "^2.1.0",
     "redux": "^4.0.0",
-    "redux-actions": "^2.6.1"
+    "redux-actions": "^2.6.1",
+    "redux-thunk": "^2.3.0"
   }
 }

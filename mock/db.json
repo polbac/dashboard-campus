@@ -1,8 +1,15 @@
 {
-    "posts": [
+    "wall": [
         { 
             "id": 1,
-            "text": "lorem  ipsum color",
+            "text": "Este es el cuerpo del post 1",
+            "attachment": "",
+            "comments": [],
+            "date": ""
+        },
+        { 
+            "id": 2,
+            "text": "Este es el cuerpo del post 1",
             "attachment": "",
             "comments": [],
             "date": ""

@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { Button } from 'reactstrap';
 import { Post } from 'app/models';
+
+import './style.css';
 
 export interface PostPropsType {
     data: Post;
