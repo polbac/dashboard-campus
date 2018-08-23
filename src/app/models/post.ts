@@ -1,5 +1,5 @@
 
-export interface Post {
+export type Post = {
     id: number;
     text: string;
     attachment: string;

@@ -1,6 +1,6 @@
 import { User } from "app/models/user";
 
-export interface Comment {
+export type Comment = {
     id: number;
     text: string;
     date: Date;
