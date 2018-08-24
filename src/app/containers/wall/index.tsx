@@ -6,7 +6,7 @@ import { pluck } from 'app/utils/pluck';
 import { Post } from 'app/models';
 
 type WallComponentPropTypes = {
-    wall: Post[],
+    wall?: Post[],
 }
 
 @connect(pluck('wall'))
@@ -21,9 +21,9 @@ export default class WallComponent extends React.Component<WallComponentPropType
     render(): any {
         const { wall } = this.props;
         return (
-            <div>
-                {wall.map( post => <PostComponent data={post} />)}
-            </div>    
+            <section>
+                { wall ? wall.map( post => <PostComponent data={post} />) : null } 
+            </section>    
         );
     }
 
