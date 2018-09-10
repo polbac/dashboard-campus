@@ -1,0 +1,31 @@
+.header {
+    background: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.header img {
+    width: 80px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.header span {
+    border: 1px solid white;
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    border-radius: 1px;
+    margin-left: 10px;
+    font-family: 'Archivo Black';
+}

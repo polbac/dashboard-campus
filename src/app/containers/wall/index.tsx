@@ -4,6 +4,8 @@ import { wallFetch } from 'app/actions';
 import PostComponent from 'app/components/post';
 import { pluck } from 'app/utils/pluck';
 import { Post } from 'app/models';
+import NewComponent from 'app/components/new';
+import * as style from './style.css';
 
 type WallComponentPropTypes = {
     wall?: Post[],
@@ -21,7 +23,8 @@ export default class WallComponent extends React.Component<WallComponentPropType
     render(): any {
         const { wall } = this.props;
         return (
-            <section>
+            <section className={style.wall}>
+                <NewComponent />
                 { wall ? wall.map( post => <PostComponent data={post} />) : null } 
             </section>    
         );

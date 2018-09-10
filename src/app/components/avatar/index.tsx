@@ -3,7 +3,7 @@ import { User } from 'app/models';
 import * as styles from './styles.css';
 
 export type AvatarPropTypes = {
-    user: User
+    user?: User
 }
 
 export default class Avatar extends React.PureComponent<AvatarPropTypes, {}> {
@@ -12,7 +12,7 @@ export default class Avatar extends React.PureComponent<AvatarPropTypes, {}> {
         const { user } = this.props;
         return (
             <div>
-                <div className={styles.image} style={{ background: `url(${user.avatar})` }} />
+                {user && <div className={styles.image} style={{ background: `url(${user.avatar})` }} />}
             </div>
         );
     }

@@ -12,13 +12,13 @@ export enum PostType {
 }
 
 export type Post = {
-    id: number;
-    text: string;
-    attachment: string;
+    id?: number;
+    text?: string;
+    attachment?: string;
     comments?: Comment[];
-    date: Date;
-    type: PostType;
-    tags: Tag[];
-    author: User;
-    group: ClassGroup;
+    date?: Date;
+    type?: PostType;
+    tags?: Tag[];
+    author?: User;
+    group?: ClassGroup;
 }
