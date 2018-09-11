@@ -6,6 +6,7 @@ import { pluck } from 'app/utils/pluck';
 import { Post } from 'app/models';
 import NewComponent from 'app/components/new';
 import * as style from './style.css';
+import Aside from 'app/components/aside';
 
 type WallComponentPropTypes = {
     wall?: Post[],
@@ -23,10 +24,13 @@ export default class WallComponent extends React.Component<WallComponentPropType
     render(): any {
         const { wall } = this.props;
         return (
+            <main>
             <section className={style.wall}>
                 <NewComponent />
                 { wall ? wall.map( post => <PostComponent data={post} />) : null } 
             </section>    
+            <Aside />
+            </main>
         );
     }
 

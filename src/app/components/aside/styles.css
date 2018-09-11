@@ -1,0 +1,23 @@
+
+.filter{
+    color: blue;
+    font-size: 19px;
+}
+
+.aside{
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 3px 3px 0px #bababa;
+    padding: 10px;
+}
+
+.title {
+    font-family: 'Archivo Black';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
