@@ -1,0 +1,12 @@
+.button {
+    background: black;
+    border: 0;
+    color: white;
+    font-family: 'Archivo Black';
+    cursor: pointer;
+    height: 45px;
+}
+
+.button:hover {
+    background: blue;
+} 
