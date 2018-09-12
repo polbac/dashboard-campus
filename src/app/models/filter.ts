@@ -7,5 +7,6 @@ export enum FilterType {
 export type Filter = {
     id: number;
     text: string;
-    type: FilterType;
+    type?: FilterType;
+    color?: Number 
 }

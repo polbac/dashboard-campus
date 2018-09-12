@@ -1,304 +1,312 @@
 {
-    "wall": [
+  "wall": [
+    {
+      "id": 0,
+      "text": "Proident irure laboris non sunt id voluptate velit enim non occaecat.",
+      "author": {
+        "username": "pola",
+        "fullName": "Justice",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      "filterId": 0,
+      "comments": [
         {
           "id": 0,
-          "text": "Proident irure laboris non sunt id voluptate velit enim non occaecat.",
-          "author": {
-            "username": "pola",
+          "text": "Enim occaecat ea labore aliquip.",
+          "parent": 1,
+          "user": {
+            "id": 0,
             "fullName": "Justice",
             "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          },
-          "comments": [
-            {
-              "id": 0,
-              "text": "Enim occaecat ea labore aliquip.",
-              "parent": 1,
-              "user": {
-                "id": 0,
-                "fullName": "Justice",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 1,
-              "text": "Fugiat elit reprehenderit occaecat duis Lorem nostrud fugiat in eiusmod pariatur.",
-              "parent": 2,
-              "user": {
-                "id": 1,
-                "fullName": "Yates",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 2,
-              "text": "Veniam laborum velit commodo veniam commodo culpa aute et cupidatat est culpa.",
-              "parent": 1,
-              "user": {
-                "id": 2,
-                "fullName": "Susanne",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 3,
-              "text": "Irure ex dolore commodo cillum culpa ex adipisicing culpa ea consectetur Lorem mollit magna.",
-              "parent": 1,
-              "user": {
-                "id": 3,
-                "fullName": "Cecile",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 4,
-              "text": "Eu aute culpa eu enim dolore amet nulla laborum anim tempor mollit tempor anim aliquip.",
-              "parent": 1,
-              "user": {
-                "id": 4,
-                "fullName": "Powell",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            }
-          ]
+          }
         },
         {
           "id": 1,
-          "text": "Sint ut veniam velit aute mollit excepteur.",
-          "author": {
-            "username": "pola",
-            "fullName": "Justice",
+          "text": "Fugiat elit reprehenderit occaecat duis Lorem nostrud fugiat in eiusmod pariatur.",
+          "parent": 2,
+          "user": {
+            "id": 1,
+            "fullName": "Yates",
             "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          },
-          "comments": [
-            {
-              "id": 0,
-              "text": "Incididunt ut tempor do pariatur.",
-              "parent": 2,
-              "user": {
-                "id": 0,
-                "fullName": "Brandi",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 1,
-              "text": "Id veniam nostrud irure sint cillum ut reprehenderit veniam ad consequat ea aute.",
-              "parent": 1,
-              "user": {
-                "id": 1,
-                "fullName": "Bond",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 2,
-              "text": "Ipsum nostrud non et dolore mollit eu nostrud nisi labore cillum sint sit et aute.",
-              "parent": 1,
-              "user": {
-                "id": 2,
-                "fullName": "Marks",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 3,
-              "text": "Cillum officia excepteur cillum magna occaecat qui aliqua et aute qui duis sint est laborum.",
-              "parent": 1,
-              "user": {
-                "id": 3,
-                "fullName": "Tanner",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            }
-          ]
+          }
         },
         {
           "id": 2,
-          "text": "Et deserunt ipsum anim irure aliqua anim dolore ut est ea.",
-          "author": {
-            "username": "pola",
-            "fullName": "Justice",
+          "text": "Veniam laborum velit commodo veniam commodo culpa aute et cupidatat est culpa.",
+          "parent": 1,
+          "user": {
+            "id": 2,
+            "fullName": "Susanne",
             "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          },
-          "comments": [
-            {
-              "id": 0,
-              "text": "Ad et quis ad exercitation tempor.",
-              "parent": 1,
-              "user": {
-                "id": 0,
-                "fullName": "Marci",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 1,
-              "text": "In ad aliqua ullamco anim ad amet aute fugiat nulla in labore.",
-              "parent": 2,
-              "user": {
-                "id": 1,
-                "fullName": "Acosta",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 2,
-              "text": "Reprehenderit dolor eiusmod ex amet consequat minim sint nulla qui incididunt ut non esse magna.",
-              "parent": 1,
-              "user": {
-                "id": 2,
-                "fullName": "Leona",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 3,
-              "text": "In amet ea ex id exercitation laboris duis ea do amet quis sint quis sit.",
-              "parent": 2,
-              "user": {
-                "id": 3,
-                "fullName": "Celina",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 4,
-              "text": "Aliquip et ea anim veniam sunt et veniam duis pariatur.",
-              "parent": 1,
-              "user": {
-                "id": 4,
-                "fullName": "Berger",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 5,
-              "text": "Sit mollit Lorem anim in pariatur magna dolor cillum.",
-              "parent": 1,
-              "user": {
-                "id": 5,
-                "fullName": "Carpenter",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 6,
-              "text": "Eiusmod in eiusmod voluptate nostrud dolor sit ad nostrud aute sit tempor culpa eiusmod.",
-              "parent": 1,
-              "user": {
-                "id": 6,
-                "fullName": "English",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 7,
-              "text": "Do in adipisicing eiusmod ipsum sit non pariatur sunt cupidatat nisi nisi nostrud.",
-              "parent": 1,
-              "user": {
-                "id": 7,
-                "fullName": "Alicia",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            }
-          ]
+          }
         },
         {
           "id": 3,
-          "text": "Fugiat amet elit mollit ea aute.",
-          "author": {
-            "username": "pola",
-            "fullName": "Justice",
+          "text": "Irure ex dolore commodo cillum culpa ex adipisicing culpa ea consectetur Lorem mollit magna.",
+          "parent": 1,
+          "user": {
+            "id": 3,
+            "fullName": "Cecile",
             "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          },
-          "comments": [
-            {
-              "id": 0,
-              "text": "Do dolore enim qui fugiat irure exercitation.",
-              "parent": 2,
-              "user": {
-                "id": 0,
-                "fullName": "Katrina",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 1,
-              "text": "Elit velit ut duis ipsum consequat culpa.",
-              "parent": 2,
-              "user": {
-                "id": 1,
-                "fullName": "Traci",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            }
-          ]
+          }
         },
         {
           "id": 4,
-          "text": "Consequat veniam elit incididunt anim labore est aliquip eu.",
-          "author": {
-            "username": "pola",
-            "fullName": "Justice",
+          "text": "Eu aute culpa eu enim dolore amet nulla laborum anim tempor mollit tempor anim aliquip.",
+          "parent": 1,
+          "user": {
+            "id": 4,
+            "fullName": "Powell",
             "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          },
-          "comments": [
-            {
-              "id": 0,
-              "text": "Deserunt cupidatat elit aliquip dolore dolore occaecat reprehenderit cupidatat.",
-              "parent": 2,
-              "user": {
-                "id": 0,
-                "fullName": "Ballard",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 1,
-              "text": "Ex sit voluptate velit est magna magna enim velit aliqua.",
-              "parent": 2,
-              "user": {
-                "id": 1,
-                "fullName": "Liliana",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 2,
-              "text": "In enim voluptate est mollit nisi.",
-              "parent": 1,
-              "user": {
-                "id": 2,
-                "fullName": "Golden",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            },
-            {
-              "id": 3,
-              "text": "Duis sunt minim adipisicing ullamco ad adipisicing irure eu ullamco ad id dolor nulla nisi.",
-              "parent": 1,
-              "user": {
-                "id": 3,
-                "fullName": "Cannon",
-                "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              }
-            }
-          ]
+          }
         }
-      ],
-    "filters": [
+      ]
+    },
+    {
+      "id": 1,
+      "text": "Sint ut veniam velit aute mollit excepteur.",
+      "filterId": 2,
+      "author": {
+        "username": "pola",
+        "fullName": "Justice",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      "comments": [
         {
+          "id": 0,
+          "text": "Incididunt ut tempor do pariatur.",
+          "parent": 2,
+          "user": {
+            "id": 0,
+            "fullName": "Brandi",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 1,
+          "text": "Id veniam nostrud irure sint cillum ut reprehenderit veniam ad consequat ea aute.",
+          "parent": 1,
+          "user": {
             "id": 1,
-            "name": "Filter 1"
+            "fullName": "Bond",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
         },
         {
+          "id": 2,
+          "text": "Ipsum nostrud non et dolore mollit eu nostrud nisi labore cillum sint sit et aute.",
+          "parent": 1,
+          "user": {
             "id": 2,
-            "name": "Filter 2"
+            "fullName": "Marks",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
         },
         {
+          "id": 3,
+          "text": "Cillum officia excepteur cillum magna occaecat qui aliqua et aute qui duis sint est laborum.",
+          "parent": 1,
+          "user": {
             "id": 3,
-            "name": "Filter 3"
+            "fullName": "Tanner",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
         }
-    ],
-    "session": {}
-  }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Et deserunt ipsum anim irure aliqua anim dolore ut est ea.",
+      "filterId": 2,
+      "author": {
+        "username": "pola",
+        "fullName": "Justice",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      "comments": [
+        {
+          "id": 0,
+          "text": "Ad et quis ad exercitation tempor.",
+          "parent": 1,
+          "user": {
+            "id": 0,
+            "fullName": "Marci",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 1,
+          "text": "In ad aliqua ullamco anim ad amet aute fugiat nulla in labore.",
+          "parent": 2,
+          "user": {
+            "id": 1,
+            "fullName": "Acosta",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 2,
+          "text": "Reprehenderit dolor eiusmod ex amet consequat minim sint nulla qui incididunt ut non esse magna.",
+          "parent": 1,
+          "user": {
+            "id": 2,
+            "fullName": "Leona",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 3,
+          "text": "In amet ea ex id exercitation laboris duis ea do amet quis sint quis sit.",
+          "parent": 2,
+          "user": {
+            "id": 3,
+            "fullName": "Celina",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 4,
+          "text": "Aliquip et ea anim veniam sunt et veniam duis pariatur.",
+          "parent": 1,
+          "user": {
+            "id": 4,
+            "fullName": "Berger",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 5,
+          "text": "Sit mollit Lorem anim in pariatur magna dolor cillum.",
+          "parent": 1,
+          "user": {
+            "id": 5,
+            "fullName": "Carpenter",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 6,
+          "text": "Eiusmod in eiusmod voluptate nostrud dolor sit ad nostrud aute sit tempor culpa eiusmod.",
+          "parent": 1,
+          "user": {
+            "id": 6,
+            "fullName": "English",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 7,
+          "text": "Do in adipisicing eiusmod ipsum sit non pariatur sunt cupidatat nisi nisi nostrud.",
+          "parent": 1,
+          "user": {
+            "id": 7,
+            "fullName": "Alicia",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Fugiat amet elit mollit ea aute.",
+      "filterId": 0,
+      "author": {
+        "username": "pola",
+        "fullName": "Justice",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      "comments": [
+        {
+          "id": 0,
+          "text": "Do dolore enim qui fugiat irure exercitation.",
+          "parent": 2,
+          "user": {
+            "id": 0,
+            "fullName": "Katrina",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 1,
+          "text": "Elit velit ut duis ipsum consequat culpa.",
+          "parent": 2,
+          "user": {
+            "id": 1,
+            "fullName": "Traci",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Consequat veniam elit incididunt anim labore est aliquip eu.",
+      "filterId": 0,
+      "author": {
+        "username": "pola",
+        "fullName": "Justice",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      "comments": [
+        {
+          "id": 0,
+          "text": "Deserunt cupidatat elit aliquip dolore dolore occaecat reprehenderit cupidatat.",
+          "parent": 2,
+          "user": {
+            "id": 0,
+            "fullName": "Ballard",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 1,
+          "text": "Ex sit voluptate velit est magna magna enim velit aliqua.",
+          "parent": 2,
+          "user": {
+            "id": 1,
+            "fullName": "Liliana",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 2,
+          "text": "In enim voluptate est mollit nisi.",
+          "parent": 1,
+          "user": {
+            "id": 2,
+            "fullName": "Golden",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        },
+        {
+          "id": 3,
+          "text": "Duis sunt minim adipisicing ullamco ad adipisicing irure eu ullamco ad id dolor nulla nisi.",
+          "parent": 1,
+          "user": {
+            "id": 3,
+            "fullName": "Cannon",
+            "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          }
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": 1,
+      "text": "programación",
+      "color": "#ff0000"
+    },
+    {
+      "id": 2,
+      "text": "taller 2",
+      "color": "#ff00ff"
+    },
+    {
+      "id": 3,
+      "text": "react",
+      "color": "#ffff00"
+    }
+  ],
+  "session": {}
+}

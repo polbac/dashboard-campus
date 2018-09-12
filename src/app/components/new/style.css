@@ -18,3 +18,30 @@
     outline: 0;
     resize: none;
 }
+
+.type {
+    display: inline-block;
+}
+
+.iconButton {
+    background: black;
+    color: white;
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.iconButton:hover {
+    background: blue;
+}
+
+.iconButton div {
+    position: relative;
+    top: -38px;
+    width: 40px;
+}
